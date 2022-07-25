@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <title>Parabéns !</title>
+</head>
+<body>
+        <div class="container">
+            <div id="final" class="flex-center flex-column">
+                <h1 id="placarFinal"></h1>
+                <form>
+                    <input 
+                        type="text" 
+                        name="username"
+                        id="username"
+                        placeholder="NOME"
+                        autocomplete="off"
+                    >
+                    <button 
+                        type="submit" 
+                        class="btn save"
+                        id="btnSave" 
+                        onclick="savePlacar(event)"
+                        disabled>
+                        SALVAR
+                    </button>
+                </form>
+                    <a class="btn jogarDenovo" href="./game.html">JOGAR DENOVO</a>
+                    <a class="btn inicio" href="./app.html">INICIO</a>
+            </div>
+        </div>
+    <script src="./assets/js/final.js"></script>
+</body>
+</html>
