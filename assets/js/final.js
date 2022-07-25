@@ -28,5 +28,5 @@ savePlacar = e => {
 
     localStorage.setItem('rankings', JSON.stringify(rankings))
 
-    window.location.assign('app.html')
+    window.location.assign('https://piicareta.github.io/mtg.quiz/')
 }
